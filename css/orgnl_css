@@ -1,0 +1,109 @@
+
+@media (max-width: 1199px){
+
+    h1.giant-heading {
+        /* font-size: 104px; */
+        font-size: 15vmin;
+        color: black;
+    }
+    .anim2
+    {
+        margin-left: 2px !important;
+        margin-top: 0px !important;
+        width: 450px !important;
+        height: 250px !important;
+        border: 2px solid red;
+    }
+}
+
+
+@media (max-width: 1000px){
+
+    h1.giant-heading {
+        /* font-size: 82px; */
+        font-size: 10vmin;
+    }
+    .anim2
+    {
+        margin-left: 2px !important;
+        margin-top: 0px !important;
+        width: 450px !important;
+        height: 250px !important;
+        border: 2px solid red;
+    }
+    .anim{
+        margin-left: -50px !important;
+        margin-top: -140px !important;
+        width: 400px !important;
+        /* height: 300px !important; */
+        border: 2px solid red;
+    }
+}
+
+
+@media (max-width:767px) {
+    #header .banner h1 {
+        font-size: 90px;
+        line-height: 90px !important;
+    }
+    #header .subtitle h4 {
+        font-size: 25px;
+    }
+    .social-bar {
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    h1.giant-heading {
+        font-size: 9vmin;
+        text-align: center;
+    }
+
+    .anim2
+    {
+        margin-left: 2px !important;
+        margin-top: 0px !important;
+        width: 250px !important;
+        height: 200px !important;
+    }
+    .anim{
+        margin-left: 1px !important;
+        margin-top: -180px !important;
+        width: 250px !important;
+    }
+    .blog .left .news > img, .blog .right .news > img {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+    .news h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .news {
+        text-align: left !important;
+        padding: 0px !important;
+    }
+    .row.blog {
+        background: none;
+    }
+    .mb10{
+        margin-bottom: 10px;
+    
+        display: block;
+    }
+    .section-title {
+        font-size: 36px;
+    }
+    footer ul {
+        padding-left: 0;
+        margin-top: 20px;
+        border-top: 1px solid;
+        padding-top: 10px;
+        border-bottom: 1px solid;
+        padding-bottom: 10px;
+    }
+
+}
+
+
